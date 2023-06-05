@@ -1,3 +1,8 @@
+## To start this project 
+● cd src 
+● npm i 
+● npx nodemon index.js
+
 ## Problem Statement:
 
 ● Create Login API
