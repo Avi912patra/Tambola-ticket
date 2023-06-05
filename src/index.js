@@ -7,7 +7,7 @@ app.use(express.json())
 
 mongoose
   .connect(
-    "mongodb+srv://hariprasadcm:harIprasad@cluster0.ahvii9p.mongodb.net/Tambola-Ticket-Generator",
+    "mongodb+srv://Avipatra912:Avi878878@cluster0.kahv6oh.mongodb.net/tambola",
     {UseNewUrlParser: true}
   )
   .then(() => console.log("Mongo-Db is connected"))
