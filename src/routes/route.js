@@ -22,6 +22,6 @@ router.post('/login',login)
 router.post('/genTickets',authenticate,genTicket) 
 
 //2.Fetch the tickets 
-router.get('/fetchTickets' , authenticate , fetchTickets)
+router.get('/fetchTickets/:ID' , authenticate , fetchTickets)
 //===============================================================================================//
 module.exports=router
